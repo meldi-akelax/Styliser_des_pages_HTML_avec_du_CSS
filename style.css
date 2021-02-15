@@ -151,5 +151,6 @@ pre {
     background-color: rgb(243, 243, 243);
     font-family: courier, monospace;
     padding: 10px;
-    border: 2px solid #aaa;
+    border: 1px solid #aaa;
+    border-radius: 10px;
 }
