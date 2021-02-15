@@ -108,7 +108,7 @@ tr:hover {
     color: white;
     text-align: center;
     border-radius: 13px;
-    border: 2px solid rgba(121, 117, 117, 0.507);
+    border: 1px solid rgba(121, 117, 117, 0.507);
     background-color: rgba(255, 255, 255, 0.397);
     transition: all 0.5s;
 }
