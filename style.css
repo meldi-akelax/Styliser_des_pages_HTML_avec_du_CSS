@@ -1,0 +1,154 @@
+/*___________________________________________________________________
+*____________________----- GENERAL STYLE -----_______________________
+*____________________________________________________________________*/
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0 9%;
+    background: rgb(219, 219, 219);
+}
+
+h2,
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: red;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+a {
+    color: rgba(214, 8, 8, 0.986);
+}
+
+img {
+    width: 100%;
+}
+
+
+/*___________________________________________________________________
+*____________________-----STYLE FOR PAGE 1 -----_____________________
+*____________________________________________________________________*/
+
+
+/* style for table */
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+thead {
+    color: #fff;
+    background-color: rgb(66, 63, 63);
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr>td:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+}
+
+.t-line {
+    background-color: rgb(236, 236, 236);
+}
+
+tr:hover {
+    background-color: rgba(85, 82, 82, 0.514);
+}
+
+
+/* style for image block */
+
+#image-p1 {
+    margin-top: 20px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 13px;
+    border: 2px solid red;
+    background-color: rgb(65, 65, 65);
+}
+
+
+/* style for last paragraph */
+
+#para {
+    margin: 30px;
+    padding: 22px 35px;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgb(85, 83, 218);
+    border: 3px dashed rgb(85, 83, 218);
+    background-color: rgba(182, 182, 182, 0.363);
+}
+
+
+/*___________________________________________________________________
+*____________________-----STYLE FOR PAGE 2-----______________________
+*____________________________________________________________________*/
+
+
+/* style for image section */
+
+#image-p2 {
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 13px;
+    border: 2px solid rgba(121, 117, 117, 0.507);
+    background-color: rgba(255, 255, 255, 0.397);
+}
+
+#image-p2 img {
+    padding-top: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+#image-p2 p {
+    height: 60px;
+    margin-top: -3px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    border-radius: 0 0 11px 11px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+#image-p2:hover {
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, 0.164);
+}
+
+#image-p2 p:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+
+/* style for liste section */
+
+ul li {
+    font-style: italic;
+}
+
+
+/* style for code section */
+
+pre {
+    color: #000;
+    background-color: rgb(243, 243, 243);
+    font-family: courier, monospace;
+    padding: 10px;
+    border: 2px solid #aaa;
+}
